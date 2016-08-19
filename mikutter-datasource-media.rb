@@ -2,7 +2,7 @@
 
 Plugin.create(:mikutter_datasource_media) { 
   filter_extract_datasources { |datasources|
-    [{mikutter_datasource_media: "画像付きツイートのみ"}.merge(datasources)]
+    [{mikutter_datasource_media: " メディア付きツイートのみ"}.merge(datasources)]
   }
 
   on_update do |service, messages|
